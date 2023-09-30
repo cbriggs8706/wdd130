@@ -8,11 +8,11 @@ Fonts are separated by a & */
   /* change the values below to your colors from your palette */
   --primary-color: #EBF2FA   ;
   --secondary-color: #05668D ;
-  --accent1-color:  #A5BE00   ;
-  --accent2-color: #679436;
+  --accent1-color: #679436   ;
+  --accent2-color:  #A5BE00;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Koulen";
+  --heading-font: Koulen, sans-serif;
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -21,10 +21,10 @@ Fonts are separated by a & */
   --paragraph-color-on-white: #05668D; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #EBF2FA; /* paragraph text on a colored background */ 
   --paragraph-background-color: #05668D  ;
-  --nav-link-color: #05668D;
-  --nav-background-color: #A5BE00;
+  --nav-link-color: #EBF2FA;
+  --nav-background-color: #679436;
   --nav-hover-link-color: #EBF2FA;
-  --nav-hover-background-color: #05668D;
+  --nav-hover-background-color: #A5BE00;
 }
 
 
