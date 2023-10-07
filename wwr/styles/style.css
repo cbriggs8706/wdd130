@@ -50,7 +50,7 @@ nav a:hover {
 }
 
 .msg {
-    background-color: #05668D;
+    background-color: #679436;
 }
 
 footer {
@@ -66,6 +66,7 @@ h4 {
     color: #05668D;
 }
 
+/*  I added an h2 color as well because in the site plan I do not use black  */
 h2 {
     color: #05668D;
 }
