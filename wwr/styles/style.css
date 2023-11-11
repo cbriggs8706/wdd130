@@ -35,6 +35,14 @@ nav a {
     font-family: Koulen, Georgia, sans-serif;
 }
 
+#hero-msg h1 {
+    font-size: 5rem;
+}
+#hero-msg h4 {
+    font-size: 2rem;
+    background: #05668D;
+}
+
 #hero-msg h4 {
     color: #EBF2FA;
 }
@@ -100,7 +108,6 @@ nav a:hover {
     border-radius: 5px;
 }
 
-/* I separated this out to give contrast */
 .join {
     background-color: #05668D;
 }
@@ -210,7 +217,42 @@ footer .social img {
     border: 10px solid #05668D;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #679436;
+    
 }
+
+.river-img {
+    border: 10px solid #05668D;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #679436;
+    width: 100%;
+    align-self: center;
+}
+
+.river-grid {
+    display: grid;
+    grid-template-columns: 10fr 10fr;
+    
+}
+
+.river-child {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.river-paragraphs {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .card-img:hover {
     opacity: .6;
@@ -231,6 +273,14 @@ footer .social img {
 .rivers-card {
     grid-column: 2/4;
     grid-row: 2/3;
+}
+
+.separator {
+    background: #05668D;
+    height: 5px;
+    width: 90%;
+    margin: 50px auto;
+    
 }
 
 .camping-card {
@@ -282,5 +332,10 @@ footer .social img {
     }
     footer {
         margin-top: 25px;
+    }
+    .river-grid {
+        display: block;
+        grid-template-columns: 10fr 10fr;
+        
     }
 }
