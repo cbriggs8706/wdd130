@@ -3,11 +3,17 @@
 #content {
     max-width: 1200px;
     margin: 0 auto;
+    
    
+}
+
+body {
+    background-color: #fcfafa;
 }
 
 main {
     padding: 0 50px;
+    
 }
 
 nav {
@@ -46,6 +52,7 @@ h1, h2, h3, h4 {
     text-align: center;
     font-family: Lato, Helvetica, sans-serif;
     font-size: 3em;
+    color: #489ff8;
 }
 
 .stacked-img {
@@ -58,6 +65,7 @@ p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.25em;
     margin: 0 0 1.5em 0;
+    color: #6e8387;
 }
 
 .right-img-block {
