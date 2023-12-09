@@ -162,6 +162,8 @@ nav a {
     font-size: 1em;
     padding: 35px 20px;
 }
+
+
 footer p {
     font-size: 1em;
 }
@@ -169,9 +171,18 @@ footer p {
 footer a {
     padding: 10px;
 }
+
+
 p {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.25em;
+    font-size: 1em;
     margin: 0 0 1.5em 0;
 }
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        display: inline-block;
+        width: 100%;
+    }
 }
